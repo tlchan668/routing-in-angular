@@ -11,7 +11,7 @@ const routes: Routes = [
   {path: "home", component: HomeComponent},
   {path: "about",component: AboutComponent},
   {path: "help", component: HelpComponent},
-  {path: "contact", component: ContactComponent},
+  {path: "contact", component: ContactComponent}, 
   //catch all
   {path: "**", component:AboutComponent}
 ];
